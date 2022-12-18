@@ -1,5 +1,5 @@
 # Sogang_CS_professor_Worldcup
-서강대 컴퓨터공학과 교수 이상형월드컵
+서강대 컴퓨터공학과 대학원 연구실/지도교수님 이상형월드컵
 
 ### dependencies 
 - VS 2017 (window)
