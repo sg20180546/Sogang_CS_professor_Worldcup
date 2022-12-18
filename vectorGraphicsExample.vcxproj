@@ -180,18 +180,22 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\ofApp.cpp" />
-    <ClCompile Include="src\world_cup.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\ofApp.h" />
-    <ClInclude Include="src\world_cup.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
       <Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\list.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ofApp.cpp" />
+    <ClCompile Include="src\ofxWinMenu.cpp" />
+    <ClCompile Include="src\world_cup.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\list.h" />
+    <ClInclude Include="src\ofApp.h" />
+    <ClInclude Include="src\ofxWinMenu.h" />
+    <ClInclude Include="src\world_cup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ProjectExtensions>
